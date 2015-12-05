@@ -4,7 +4,7 @@ header('Access-Control-Allow-Credentials: true');
 header('Access-Control-Allow-Origin: '.(isset($_SERVER['HTTP_ORIGIN'])?$_SERVER['HTTP_ORIGIN']:'*'));
 header('Access-Control-Allow-Headers: *');
 
-define('_EMAIL_TO', 'blah@gmail.com');
+define('_EMAIL_TO', 'vr.balaji16@gmail.com');
 define('_EMAIL_FROM', 'no-reply@domain.com');
 define('_EMAIL_SUBJECT', 'Contact Form');
 
